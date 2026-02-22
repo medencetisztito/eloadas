@@ -1,0 +1,215 @@
+/*<link rel="stylesheet" href="stlye.css" type="text/css">*/
+
+.monolog {
+    background: #eddf42;
+    background: radial-gradient(circle, rgba(237, 223, 66, 1) 36%, rgba(217, 147, 17, 1) 100%);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    padding: 20px;
+    font-size: larger;
+}
+@media (max-width:1024) {
+    .monolog {
+        font-size: small;
+        
+    }
+}
+
+
+.backgroundjegy {
+    background-image: url(Rólunk\ dekstop\ kész.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+@media (max-width:1024px) {
+    .backgroundjegy {
+    background-image: url(MISSING\ másolata\ -\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    }
+}
+
+
+/*Rólunk*/
+.background {
+    background-image: url("Rólunk\ dekstop\ kész.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+}
+
+@media (max-width: 1024px) {
+    .background {
+        background-image: url("MISSING\ másolata\ -\ 9.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+}
+
+/*kezdőoldal*/
+.mainpagebackground {
+    background-image: url("Remidner\ Google\ Classroom\ Announcement\ Colorful\ Lined\ Grid\ Style.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+}
+
+@media (max-width: 1024px) {
+    .mainpagebackground {
+        background-image: url("Főképernyő\ teló.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+}
+
+/*menü*/
+/*.menutop {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    font-size: large;
+    margin-top: 3.5%;
+}
+
+.menutop a {
+    background-color: #dab204;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.70% 0.80%;
+    border-radius: 17%;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .menu a {
+    flex: 1 1 20%;
+    min-width: 0; 
+    margin-top: 5%;
+    flex: 1 1 22%;        
+    font-size: 0.7rem;     
+    padding: 0.8% 1%;      
+    line-height: 1.2; 
+
+  }
+
+}*/
+
+.menubottom, .menutop {
+    border-color: aliceblue;
+    border-style: none;
+}
+
+
+.menutop a, .menubottom a {
+  background-color: #dab204;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 3% 5%;
+  border-radius: 17%;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.3s ease;
+  font-size: 0.85rem;
+  min-width: 60px;
+  
+  box-sizing: border-box;
+  
+  border-style: solid;
+  border-color: rgb(255, 187, 0);
+}
+
+.menutop a:hover, .menubottom a:hover {
+  background-color: #b95c03;
+  color: white;
+}
+
+
+.menutop, .menubottom {
+  float: left;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  gap: %;
+  padding: 2% 0;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+}
+
+
+@media (max-width: 1024px) {
+  .menutop {
+    width: 50%;
+    flex: 1 1 45%;
+    font-size: 0.75rem;
+    padding: 0.6% 1.2%;
+    margin-top: 5%;
+  }
+
+  .menubottom {
+    margin-top: 190%;
+    width: 33%;
+    display: flex;
+    justify-content: space-around; 
+    gap: 1%;
+    padding: 0.5% 0;
+    background-color: transparent; 
+    z-index: 1000;
+  }
+
+  .menubottom a {
+    flex: 0 0 auto;    
+    font-size: 0.75rem;
+    padding: 0.6% 1.2%;
+    border-radius: 17%;
+    min-width: 80px;
+    text-align: center;
+  }
+}
+
+
+/*vissza gomb*/
+
+.back {
+    margin-top: 3.5%;
+    margin-left: 2%;
+}
+
+@media (max-width: 1024px) {
+    .back a {
+        margin-top: 100%;
+        margin-left: 1%;
+        
+    }
+}
+
+.back a {
+    background-color: #da6b048e;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.93% 1.04%;
+    border-radius: 17%;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.googlejegy{
+    
+}
+
+@media (max-width: 1024px) {
+    .googlejegy{
+        max-width: 99%;
+    }
+}
